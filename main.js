@@ -1,9 +1,12 @@
 function myFunction() {
-    var inputBoard = document.getElementById("input-board").value;
-    document.getElementById("output-board-content").innerHTML = inputBoard;
+    var inputBoardVal = document.getElementById("input-board").value;
+    var inputBoard = inputBoardVal.replace(/,/g, '\n');
+    var outputBoard = document.getElementById("output-board").querySelectorAll("p");
+    for (var i = 0; i < outputBoard.length; i++) {
+        outputBoard[i].innerHTML = inputBoard;
+        // if (inputBoard[i] == '\n') {
+        //     outputBoard.split("\n");
+        // }
+    }
+
 }
-// function copyToClipBoard() {   // to copy the whole output code on one click
-//     var copyText = document.getElementById("output-board");
-//     copyText.select();
-//     document.execCommand("Copy");
-// }

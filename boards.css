@@ -11,6 +11,7 @@
     position: relative;
     background: #efefef;
     font-family: serif;
+    border: 2px rgb(240, 232, 232);
 }
 
 #output-board-content {
@@ -24,13 +25,21 @@
 }
 
 .click-here {
+    width: 32px;
     position: absolute;
     margin: 0 auto;
+    top: 34%;
+    left: 32%;
+}
+.click-here:hover{
+    color: #efefef;
+    background: rgb(102, 104, 98);
+    border-style: none;
 }
 .copy-button{
     position: absolute;
     background: #ffffff;
-    border: none;
+    border-style: none;
     top: 0%;
     right: 0%;
 }
