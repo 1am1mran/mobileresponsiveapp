@@ -1,0 +1,28 @@
+#input-board {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #efefef;
+}
+
+#output-board {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #efefef;
+    font-family: serif;
+}
+#output-board-content{
+    background: rgb(109, 105, 105);
+    color: aliceblue;
+}
+
+.heading {
+    text-align: center;
+    font-family: serif;
+}
+button{
+    position: absolute;
+    margin: 0 auto;
+
+}
