@@ -1,3 +1,6 @@
+body{
+    background: rgb(109, 105, 105);
+}
 #input-board {
     width: 100%;
     height: 100%;
@@ -22,6 +25,7 @@
 .heading {
     text-align: center;
     font-family: serif;
+    color: #efefef;
 }
 
 .click-here {
@@ -65,6 +69,9 @@ footer {
 /* For small Devices */
 
 @media screen and (min-width:321px) and (max-width: 480px) {
+    .heading{
+        color: #000;
+    }
     .click-here {
         font-size: 14px;
         width: 28px;
@@ -78,6 +85,9 @@ footer {
 /* For Mobiles */
 
 @media screen and (min-width:481px) and (max-width: 575px) {
+    .heading{
+        color: #000;
+    }
     .click-here {
         width: 32px;
         font-size: 15px;
