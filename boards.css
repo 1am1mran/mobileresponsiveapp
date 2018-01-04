@@ -115,25 +115,3 @@ footer {
         left: 31%;
     }
 }
-
-
-/* For Desktops */
-
-@media screen and (min-width:1025px) and (max-width: 1600px) {
-    .click-here {
-        width: 32px;
-        top: 34%;
-        left: 32%;
-    }
-}
-
-
-/* For Large Screens */
-
-@media screen and (min-width:1601px) and (max-width: 1850px) {
-    .click-here {
-        width: 32px;
-        top: 34%;
-        left: 32%;
-    }
-}
