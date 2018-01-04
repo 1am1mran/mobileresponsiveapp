@@ -31,12 +31,14 @@
     top: 34%;
     left: 32%;
 }
-.click-here:hover{
+
+.click-here:hover {
     color: #efefef;
     background: rgb(102, 104, 98);
     border-style: none;
 }
-.copy-button{
+
+.copy-button {
     position: absolute;
     background: #ffffff;
     border-style: none;
@@ -54,4 +56,84 @@ footer {
     bottom: 0px;
     height: 60px;
     width: 100%;
+}
+
+
+/* Media Queries */
+
+
+/* For small Devices */
+
+@media screen and (min-width:321px) and (max-width: 480px) {
+    .click-here {
+        font-size: 14px;
+        width: 28px;
+        display: block;
+        top: 10%;
+        left: 86%;
+    }
+}
+
+
+/* For Mobiles */
+
+@media screen and (min-width:481px) and (max-width: 575px) {
+    .click-here {
+        width: 32px;
+        font-size: 15px;
+        top: 10%;
+        left: 86%;
+    }
+}
+@media screen and (min-width:576px) and (max-width: 640px) {
+    .click-here {
+        width: 32px;
+        font-size: 15px;
+        top: 40%;
+        left: 47%;
+    }
+}
+
+
+/* For mobiles and Tabs */
+
+@media screen and (min-width:641px) and (max-width: 768px) {
+    .click-here {
+        width: 34px;
+        top: 35%;
+        left: 47%;
+    }
+}
+
+
+/* For Laptops */
+
+@media screen and (min-width:769px) and (max-width: 1024px) {
+    .click-here {
+        /* width: 32px; */
+        top: 34%;
+        left: 31%;
+    }
+}
+
+
+/* For Desktops */
+
+@media screen and (min-width:1025px) and (max-width: 1600px) {
+    .click-here {
+        width: 32px;
+        top: 34%;
+        left: 32%;
+    }
+}
+
+
+/* For Large Screens */
+
+@media screen and (min-width:1601px) and (max-width: 1850px) {
+    .click-here {
+        width: 32px;
+        top: 34%;
+        left: 32%;
+    }
 }
