@@ -42,13 +42,6 @@ body{
     border-style: none;
 }
 
-.copy-button {
-    position: absolute;
-    background: #ffffff;
-    border-style: none;
-    top: 0%;
-    right: 0%;
-}
 
 footer {
     text-align: center;
