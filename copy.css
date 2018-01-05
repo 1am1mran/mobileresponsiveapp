@@ -16,8 +16,9 @@
     border-bottom-color: rgba(0, 0, 0, 0.36);
     border-radius: 3px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
-  }
-  .copy-button:before {
+}
+
+.copy-button:before {
     content: '';
     display: none;
     position: absolute;
@@ -29,8 +30,9 @@
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 5px solid rgba(0, 0, 0, 0.72);
-  }
-  .copy-button:after {
+}
+
+.copy-button:after {
     content: 'Copy to Clipboard';
     display: none;
     position: absolute;
@@ -45,18 +47,96 @@
     text-align: center;
     background: rgba(0, 0, 0, 0.72);
     border-radius: 3px;
-  }
-  .copy-button:hover {
+}
+
+.copy-button:hover {
     background-color: #eee;
-  }
-  .copy-button:hover:before, .copy-button:hover:after {
+}
+
+.copy-button:hover:before,
+.copy-button:hover:after {
     display: block;
-  }
-  .copy-button:active, .copy-button:focus {
+}
+
+.copy-button:active,
+.copy-button:focus {
     outline: none;
-  }
-  .copy-button:active:after, .copy-button:focus:after {
+}
+
+.copy-button:active:after,
+.copy-button:focus:after {
     content: 'Copied!';
-  }
- 
-  
+}
+
+
+/* Media Queries */
+
+
+/* For small Devices */
+
+@media screen and (min-width:321px) and (max-width: 480px) {
+    .copy-button {
+        top: 44%;
+        left: 85%;
+    }
+}
+
+
+/* For Mobiles */
+
+@media screen and (min-width:481px) and (max-width: 575px) {
+    .copy-button {
+        top: 48%;
+        left: 86%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width: 640px) {
+    .copy-button {
+        top: 26%;
+        left: 47%;
+    }
+}
+
+
+/* For mobiles and Tabs */
+
+@media screen and (min-width:641px) and (max-width: 768px) {
+    .copy-button {
+        top: 26%;
+        left: 47%;
+        margin-left: 4px;
+        width: 31px;
+        height: 31px;
+    }
+}
+
+
+/* For Laptops */
+
+@media screen and (min-width:769px) and (max-width: 1024px) {
+    .copy-button {
+        top: 20%;
+        left: 31.5%;
+    }
+}
+
+
+/* For Desktops */
+
+@media screen and (min-width:1025px) and (max-width: 1600px) {
+    .copy-button {
+        top: 20%;
+        left: 32%;
+    }
+}
+
+
+/* For Large Screens */
+
+@media screen and (min-width:1601px) and (max-width: 1850px) {
+    .copy-button {
+        top: 20%;
+        left: 32%;
+    }
+}
